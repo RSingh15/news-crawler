@@ -1,0 +1,10 @@
+/home/rishabhsingh/Code/CAAS-Crawling/data-model/src/main/java/org/ninestar/crawling/data/HttpUrl.java
+/home/rishabhsingh/Code/CAAS-Crawling/data-model/src/main/java/org/ninestar/crawling/data/PageableList.java
+/home/rishabhsingh/Code/CAAS-Crawling/data-model/src/main/java/org/ninestar/crawling/data/HtmlAnalysisResult.java
+/home/rishabhsingh/Code/CAAS-Crawling/data-model/src/main/java/org/ninestar/crawling/data/HttpArticleParseResult.java
+/home/rishabhsingh/Code/CAAS-Crawling/data-model/src/main/java/org/ninestar/crawling/data/HttpSource.java
+/home/rishabhsingh/Code/CAAS-Crawling/data-model/src/main/java/org/ninestar/crawling/data/NamedQuery.java
+/home/rishabhsingh/Code/CAAS-Crawling/data-model/src/main/java/org/ninestar/crawling/data/HttpArticle.java
+/home/rishabhsingh/Code/CAAS-Crawling/data-model/src/main/java/org/ninestar/crawling/data/DataUtils.java
+/home/rishabhsingh/Code/CAAS-Crawling/data-model/src/main/java/org/ninestar/crawling/data/HttpSourceTest.java
+/home/rishabhsingh/Code/CAAS-Crawling/data-model/src/main/java/org/ninestar/crawling/data/HighlightedSearchResult.java

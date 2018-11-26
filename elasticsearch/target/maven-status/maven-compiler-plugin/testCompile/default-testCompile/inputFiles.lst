@@ -1,0 +1,8 @@
+/home/rishabhsingh/Code/CAAS-Crawling/elasticsearch/src/test/java/org/ninestar/crawling/es/ElasticConnectionTest.java
+/home/rishabhsingh/Code/CAAS-Crawling/elasticsearch/src/test/java/org/ninestar/crawling/es/TestUtils.java
+/home/rishabhsingh/Code/CAAS-Crawling/elasticsearch/src/test/java/org/ninestar/crawling/es/EsHttpUrlOperationsTest.java
+/home/rishabhsingh/Code/CAAS-Crawling/elasticsearch/src/test/java/org/ninestar/crawling/es/EsHttpSourceOperationsTest.java
+/home/rishabhsingh/Code/CAAS-Crawling/elasticsearch/src/test/java/org/ninestar/crawling/es/EsHttpSourceTestOperationsTest.java
+/home/rishabhsingh/Code/CAAS-Crawling/elasticsearch/src/test/java/org/ninestar/crawling/es/EsDocumentOperationsTest.java
+/home/rishabhsingh/Code/CAAS-Crawling/elasticsearch/src/test/java/org/ninestar/crawling/es/ElasticsearchTestServer.java
+/home/rishabhsingh/Code/CAAS-Crawling/elasticsearch/src/test/java/org/ninestar/crawling/es/IndexManager.java

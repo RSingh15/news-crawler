@@ -1,0 +1,36 @@
+{
+  "settings": {
+    "number_of_shards": 1,
+    "number_of_replicas": 0,
+    "index": {
+      "codec": "best_compression"
+    }
+  },
+  "mappings": {
+    "url": {
+      "_source": {
+        "enabled": true
+      },
+      "properties": {
+        "created": {
+          "type": "date"
+        },
+        "updated": {
+          "type": "date"
+        },
+        "published": {
+          "type": "date"
+        },
+        "url": {
+          "type": "keyword"
+        },
+        "source": {
+          "type": "keyword"
+        },
+        "status": {
+          "type": "keyword"
+        }
+      }
+    }
+  }
+}

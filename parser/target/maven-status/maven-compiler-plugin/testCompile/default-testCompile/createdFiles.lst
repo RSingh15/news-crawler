@@ -1,0 +1,16 @@
+org/ninestar/crawling/parser/DateParserTest.class
+org/ninestar/crawling/parser/FortuneExtractorTest.class
+org/ninestar/crawling/parser/utils/HttpSourceTesterTest.class
+org/ninestar/crawling/parser/utils/TextFilterTest.class
+org/ninestar/crawling/parser/BloombergExtractorTest.class
+org/ninestar/crawling/parser/BaseArticleExtractorTest.class
+org/ninestar/crawling/parser/JsonLdParserTest.class
+org/ninestar/crawling/parser/urls/UrlFiltersTest.class
+org/ninestar/crawling/parser/urls/UrlExtractorTest.class
+org/ninestar/crawling/parser/InvestingParserTest.class
+org/ninestar/crawling/parser/ReutersExtractorTest.class
+org/ninestar/crawling/parser/utils/TextProfileSignatureTest.class
+org/ninestar/crawling/parser/AljazeeraExtractorTest.class
+org/ninestar/crawling/parser/KedainietisTest.class
+org/ninestar/crawling/parser/CyberscoopExtractorTest.class
+org/ninestar/crawling/parser/utils/QueryParserTest.class

@@ -1,0 +1,222 @@
+{
+  "settings": {
+    "number_of_shards": 1,
+    "number_of_replicas": 0,
+    "index": {
+      "codec": "best_compression"
+    },
+    "analysis": {
+      "filter": {
+        "english_stop": {
+          "type":       "stop",
+          "stopwords":  "_english_"
+        },
+        "english_light_stemmer": {
+          "type":       "stemmer",
+          "language":   "light_english"
+        },
+        "english_possessive_stemmer": {
+          "type":       "stemmer",
+          "language":   "possessive_english"
+        }
+      },
+      "analyzer": {
+        "english_stem_cs": {
+          "tokenizer":  "standard",
+          "filter": [
+            "english_possessive_stemmer",
+            "english_stop",
+            "english_light_stemmer"
+          ]
+        },
+        "english_stem_ci": {
+          "tokenizer":  "standard",
+          "filter": [
+            "english_possessive_stemmer",
+            "lowercase",
+            "english_stop",
+            "english_light_stemmer"
+          ]
+        },
+        "english_nostem_cs": {
+          "tokenizer":  "standard",
+          "filter": [
+            "english_possessive_stemmer",
+            "english_stop"
+          ]
+        },
+        "english_nostem_ci": {
+          "tokenizer":  "standard",
+          "filter": [
+            "english_possessive_stemmer",
+            "lowercase",
+            "english_stop"
+          ]
+        }
+      }
+    }
+  },
+  "mappings": {
+    "doc": {
+      "_source": {
+        "enabled": true
+      },
+      "properties": {
+        "created": {
+          "type": "date"
+        },
+        "published": {
+          "type": "date"
+        },
+        "discovered": {
+          "type": "date"
+        },
+        "updated": {
+          "type": "date"
+        },
+        "url": {
+          "type": "keyword"
+        },
+        "source": {
+          "type": "keyword"
+        },
+        "language": {
+          "type": "keyword"
+        },
+        "status": {
+          "type": "keyword"
+        },
+        "app_ids": {
+          "type": "keyword"
+        },
+        "name": {
+          "type": "keyword"
+        },
+        "language_code": {
+          "type": "keyword"
+        },
+        "images_url": {
+	  "type": "text",
+          "index": "true"
+        },
+        "meta_keywords": {
+          "type": "text",
+          "index": true,
+          "doc_values": false,
+          "fielddata": true,
+          "fields": {
+            "stem_cs": {
+              "type": "text",
+              "index": true,
+              "analyzer": "english_stem_cs"
+            },
+            "stem_ci": {
+              "type": "text",
+              "index": true,
+              "analyzer": "english_stem_ci"
+            },
+            "nostem_cs": {
+              "type": "text",
+              "index": true,
+              "analyzer": "english_nostem_cs"
+            },
+            "nostem_ci": {
+              "type": "text",
+              "index": true,
+              "analyzer": "english_nostem_ci"
+            }
+          }
+        },
+        "description": {
+          "type": "text",
+          "index": true,
+          "doc_values": false,
+          "fielddata": true,
+          "fields": {
+            "stem_cs": {
+              "type": "text",
+              "index": true,
+              "analyzer": "english_stem_cs"
+            },
+            "stem_ci": {
+              "type": "text",
+              "index": true,
+              "analyzer": "english_stem_ci"
+            },
+            "nostem_cs": {
+              "type": "text",
+              "index": true,
+              "analyzer": "english_nostem_cs"
+            },
+            "nostem_ci": {
+              "type": "text",
+              "index": true,
+              "analyzer": "english_nostem_ci"
+            }
+          }
+        },
+        "title": {
+          "type": "text",
+          "index": true,
+          "doc_values": false,
+          "fielddata": true,
+          "fields": {
+            "stem_cs": {
+              "type": "text",
+              "index": true,
+              "analyzer": "english_stem_cs"
+            },
+            "stem_ci": {
+              "type": "text",
+              "index": true,
+              "analyzer": "english_stem_ci"
+            },
+            "nostem_cs": {
+              "type": "text",
+              "index": true,
+              "analyzer": "english_nostem_cs"
+            },
+            "nostem_ci": {
+              "type": "text",
+              "index": true,
+              "analyzer": "english_nostem_ci"
+            }
+          }
+        },
+        "text": {
+          "type": "text",
+          "doc_values": false,
+          "fielddata": true,
+          "fields": {
+            "stem_cs": {
+              "type": "text",
+              "index": true,
+              "analyzer": "english_stem_cs"
+            },
+            "stem_ci": {
+              "type": "text",
+              "index": true,
+              "analyzer": "english_stem_ci"
+            },
+            "nostem_cs": {
+              "type": "text",
+              "index": true,
+              "analyzer": "english_nostem_cs"
+            },
+            "nostem_ci": {
+              "type": "text",
+              "index": true,
+              "analyzer": "english_nostem_ci"
+            }
+          }
+        },
+        "text_signature": {
+          "type": "keyword"
+        },
+        "duplicate_of": {
+          "type": "keyword"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+org/ninestar/crawling/es/ElasticsearchTestServer$MyNode.class
+org/ninestar/crawling/es/EsHttpSourceOperationsTest.class
+org/ninestar/crawling/es/EsDocumentOperationsTest.class
+org/ninestar/crawling/es/TestUtils.class
+org/ninestar/crawling/es/ElasticConnectionTest.class
+org/ninestar/crawling/es/ElasticsearchTestServer$Builder.class
+org/ninestar/crawling/es/ElasticsearchTestServer.class
+org/ninestar/crawling/es/IndexManager.class
+org/ninestar/crawling/es/ElasticsearchTestServer$1.class
+org/ninestar/crawling/es/EsHttpUrlOperationsTest.class
+org/ninestar/crawling/es/ElasticConnectionTest$1.class
+org/ninestar/crawling/es/EsHttpSourceTestOperationsTest.class

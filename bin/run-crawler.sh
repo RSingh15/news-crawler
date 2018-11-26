@@ -1,0 +1,1 @@
+( cd crawler && mvn package -Dstorm.scope=compile -Dlog4j.scope=compile -Pbigjar -DskipTests && java -cp target/crawler-standalone.jar org.ninestar.crawling.crawler.CrawlerTopology -local -conf conf/local.yaml )

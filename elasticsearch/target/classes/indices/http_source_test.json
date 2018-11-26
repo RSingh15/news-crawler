@@ -1,0 +1,57 @@
+{
+  "settings": {
+    "number_of_shards": 1,
+    "number_of_replicas": 0,
+    "index": {
+      "codec": "best_compression"
+    }
+  },
+  "mappings": {
+    "http_source_test": {
+      "_source": {
+        "enabled": true
+      },
+      "properties": {
+        "updated": {
+          "type": "date",
+          "format": "date_optional_time"
+        },
+        "source_url": {
+          "type": "keyword",
+          "copy_to": "search_field"
+        },
+        "url": {
+          "type": "keyword",
+          "copy_to": "search_field"
+        },
+        "url_accepted": {
+          "type": "boolean",
+          "doc_values": false
+        },
+        "html": {
+          "type": "keyword",
+          "index": false,
+          "doc_values": false
+        },
+        "title": {
+          "type": "keyword",
+          "index": false,
+          "doc_values": false
+        },
+        "text": {
+          "type": "keyword",
+          "index": false,
+          "doc_values": false
+        },
+        "date": {
+          "type": "keyword",
+          "index": false,
+          "doc_values": false
+        },
+        "search_field": {
+          "type": "text"
+        }
+      }
+    }
+  }
+}

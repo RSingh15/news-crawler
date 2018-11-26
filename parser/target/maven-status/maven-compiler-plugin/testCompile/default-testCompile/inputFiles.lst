@@ -1,0 +1,16 @@
+/home/rishabhsingh/Code/CAAS-Crawling/parser/src/test/java/org/ninestar/crawling/parser/urls/UrlFiltersTest.java
+/home/rishabhsingh/Code/CAAS-Crawling/parser/src/test/java/org/ninestar/crawling/parser/utils/HttpSourceTesterTest.java
+/home/rishabhsingh/Code/CAAS-Crawling/parser/src/test/java/org/ninestar/crawling/parser/InvestingParserTest.java
+/home/rishabhsingh/Code/CAAS-Crawling/parser/src/test/java/org/ninestar/crawling/parser/KedainietisTest.java
+/home/rishabhsingh/Code/CAAS-Crawling/parser/src/test/java/org/ninestar/crawling/parser/BloombergExtractorTest.java
+/home/rishabhsingh/Code/CAAS-Crawling/parser/src/test/java/org/ninestar/crawling/parser/FortuneExtractorTest.java
+/home/rishabhsingh/Code/CAAS-Crawling/parser/src/test/java/org/ninestar/crawling/parser/BaseArticleExtractorTest.java
+/home/rishabhsingh/Code/CAAS-Crawling/parser/src/test/java/org/ninestar/crawling/parser/utils/QueryParserTest.java
+/home/rishabhsingh/Code/CAAS-Crawling/parser/src/test/java/org/ninestar/crawling/parser/utils/TextFilterTest.java
+/home/rishabhsingh/Code/CAAS-Crawling/parser/src/test/java/org/ninestar/crawling/parser/AljazeeraExtractorTest.java
+/home/rishabhsingh/Code/CAAS-Crawling/parser/src/test/java/org/ninestar/crawling/parser/utils/TextProfileSignatureTest.java
+/home/rishabhsingh/Code/CAAS-Crawling/parser/src/test/java/org/ninestar/crawling/parser/JsonLdParserTest.java
+/home/rishabhsingh/Code/CAAS-Crawling/parser/src/test/java/org/ninestar/crawling/parser/urls/UrlExtractorTest.java
+/home/rishabhsingh/Code/CAAS-Crawling/parser/src/test/java/org/ninestar/crawling/parser/ReutersExtractorTest.java
+/home/rishabhsingh/Code/CAAS-Crawling/parser/src/test/java/org/ninestar/crawling/parser/CyberscoopExtractorTest.java
+/home/rishabhsingh/Code/CAAS-Crawling/parser/src/test/java/org/ninestar/crawling/parser/DateParserTest.java

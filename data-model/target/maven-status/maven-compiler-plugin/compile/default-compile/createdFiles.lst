@@ -1,0 +1,10 @@
+org/ninestar/crawling/data/HtmlAnalysisResult.class
+org/ninestar/crawling/data/NamedQuery.class
+org/ninestar/crawling/data/HttpSource.class
+org/ninestar/crawling/data/HttpArticle.class
+org/ninestar/crawling/data/HttpArticleParseResult.class
+org/ninestar/crawling/data/DataUtils.class
+org/ninestar/crawling/data/PageableList.class
+org/ninestar/crawling/data/HttpSourceTest.class
+org/ninestar/crawling/data/HttpUrl.class
+org/ninestar/crawling/data/HighlightedSearchResult.class

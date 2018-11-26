@@ -1,0 +1,43 @@
+{
+  "settings": {
+    "number_of_shards": 1,
+    "number_of_replicas": 0,
+    "index": {
+      "codec": "best_compression"
+    }
+  },
+  "mappings": {
+    "named_query": {
+      "_source": {
+        "enabled": true
+      },
+      "properties": {
+        "updated": {
+          "type": "date",
+          "format": "date_optional_time"
+        },
+        "name": {
+          "type": "keyword"
+        },
+        "name_suggest": {
+          "type": "completion"
+        },
+        "stemmed_case_sensitive": {
+          "type": "keyword"
+        },
+        "stemmed_case_insensitive": {
+          "type": "keyword"
+        },
+        "not_stemmed_case_sensitive": {
+          "type": "keyword"
+        },
+        "not_stemmed_case_insensitive": {
+          "type": "keyword"
+        },
+        "advanced": {
+          "type": "keyword"
+        }
+      }
+    }
+  }
+}

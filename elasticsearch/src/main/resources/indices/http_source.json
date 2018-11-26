@@ -1,0 +1,109 @@
+{
+  "settings": {
+    "number_of_shards": 1,
+    "number_of_replicas": 0,
+    "index": {
+      "codec": "best_compression"
+    }
+  },
+  "mappings": {
+    "http_source": {
+      "_source": {
+        "enabled": true
+      },
+      "properties": {
+        "created": {
+          "type": "date",
+          "format": "date_optional_time"
+        },
+        "updated": {
+          "type": "date",
+          "format": "date_optional_time"
+        },
+        "url": {
+          "type": "keyword",
+          "copy_to": "search_field"
+        },
+        "name": {
+          "type": "keyword",
+          "copy_to": "search_field"
+        },
+        "timezone": {
+          "type": "keyword"
+        },
+        "language": {
+          "type": "keyword"
+        },
+        "url_crawl_delay_secs": {
+          "type": "integer"
+        },
+        "feed_crawl_delay_secs": {
+          "type": "integer"
+        },
+        "sitemap_crawl_delay_secs": {
+          "type": "integer"
+        },
+        "enabled": {
+          "type": "boolean"
+        },
+        "discovery_enabled": {
+          "type": "boolean"
+        },
+        "urls": {
+          "type": "keyword",
+          "copy_to": "search_field"
+        },
+        "sitemaps": {
+          "type": "keyword",
+          "copy_to": "search_field"
+        },
+        "feeds": {
+          "type": "keyword",
+          "copy_to": "search_field"
+        },
+        "countries": {
+          "type": "keyword"
+        },
+        "categories": {
+          "type": "keyword"
+        },
+        "app_ids": {
+          "type": "keyword"
+        },
+        "url_filters": {
+          "type": "keyword"
+        },
+        "url_normalizers": {
+          "type": "keyword"
+        },
+        "title_selectors": {
+          "type": "keyword"
+        },
+        "date_selectors": {
+          "type": "keyword"
+        },
+        "text_selectors": {
+          "type": "keyword"
+        },
+        "text_normalizers": {
+          "type": "keyword"
+        },
+        "date_regexps": {
+          "type": "keyword"
+        },
+        "date_formats": {
+          "type": "keyword"
+        },
+        "description_selector": {
+          "type": "keyword"
+        },
+        "keywords_selector": {
+          "type": "keyword"
+        },
+        "search_field": {
+          "type": "text"
+        }
+      }
+    }
+  }
+}
